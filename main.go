@@ -14,6 +14,8 @@ func main() {
 
 	http.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "wip")
+	http.HandleFunc("/register", func(w http.ResponseWriter, r *http.Request) {
+		fmt.Fprintf(w, "todo")
 	})
 
 	http.HandleFunc("/update", func(w http.ResponseWriter, r *http.Request) {
